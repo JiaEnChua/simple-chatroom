@@ -1,0 +1,30 @@
+.chatRoom {
+  background-color: rgb(237, 232, 224);
+  height: 80vh;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+
+.chatRoom__container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+}
+
+form > input {
+  width: 100%;
+  border: none;
+  background-color: rgba(242, 242, 242, 0.981);
+  border-radius: 5px;
+  height: 5vh;
+  font-size: large;
+}
+
+form > button {
+  width: 100px;
+}

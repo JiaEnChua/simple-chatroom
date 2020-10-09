@@ -1,0 +1,32 @@
+.messages {
+  width: 100%;
+}
+
+.message {
+  display: flex;
+  margin: 10px 0;
+}
+
+.message__text {
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent > p {
+  background-color: rgb(89, 235, 89);
+  margin-right: 10px;
+}
+
+.received > p {
+  background-color: rgb(194, 194, 194);
+}
+
+.photo {
+  height: 30px;
+}
